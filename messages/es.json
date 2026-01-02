@@ -1,0 +1,54 @@
+{
+    "Metadata": {
+        "title": "¿Cuándo Termina la Temporada de Rainbow Six Siege? | Cuenta Atrás en Vivo",
+        "description": "Cuenta regresiva en vivo para el final de Rainbow Six Siege Operation Tenfold Pursuit (Y10S4). Rastrea la fecha exacta del fin de temporada y el lanzamiento del Año 11 Temporada 1."
+    },
+    "Hero": {
+        "status_badge": "Rastreador de Temporada en Vivo",
+        "header_prefix": "OPERACIÓN",
+        "header_suffix": "TENFOLD",
+        "subheader": "Tiempo restante hasta el fin de la temporada actual"
+    },
+    "Countdown": {
+        "days": "Días",
+        "hours": "Horas",
+        "minutes": "Minutos",
+        "seconds": "Segundos",
+        "expired_title": "TEMPORADA EN VIVO",
+        "expired_msg": "¡Actualiza tu juego ahora!"
+    },
+    "Progress": {
+        "start": "Inicio Temporada",
+        "complete": "Completado",
+        "end": "Fin Temporada"
+    },
+    "Article": {
+        "title": "Inteligencia de Temporada y Preguntas Frecuentes",
+        "completion_title": "Estimación de Finalización",
+        "completion_desc": "La Operación Tenfold Pursuit está programada para concluir el <strong>3 de Marzo de 2026</strong>. Esto se alinea con la hoja de ruta estratégica para el despliegue del Año 11 Temporada 1.",
+        "next_title": "Próximo Despliegue",
+        "next_desc": "Prepárate para la transición inmediata al mantenimiento de servidores del Y11S1 tras la finalización de la cuenta atrás. Se esperan nuevos activos tácticos.",
+        "checklist_title": "Lista de Verificación Táctica",
+        "checklist_1": "Terminar Pase de Batalla",
+        "checklist_2": "Asegurar Amuleto de Rango",
+        "checklist_3": "Revisar Notas del Parche"
+    },
+    "FAQ": {
+        "title": "Preguntas Frecuentes",
+        "q1": "¿Cuándo termina la temporada actual de Rainbow Six Siege?",
+        "a1": "Rainbow Six Siege Operation Tenfold Pursuit (Año 10 Temporada 4) se espera que termine el <strong>3 de Marzo de 2026</strong>. Los servidores típicamente se desconectan para mantenimiento a las 9:00 AM ET / 14:00 UTC.",
+        "q2": "¿Qué pasa cuando el contador llega a cero?",
+        "a2": "Cuando termina la cuenta atrás, los servidores del juego usualmente entran en un periodo de mantenimiento de aproximadamente 60-90 minutos. Tras el mantenimiento, la actualización de la plataforma relevante (PC, PlayStation, Xbox) estará disponible para descarga.",
+        "q3": "¿Mantendré mi rango la próxima temporada?",
+        "a3": "No, tu rango visible se reinicia con cada nueva temporada. Sin embargo, tu MMR oculto (Matchmaking Rating) no se reinicia completamente, lo que ayuda a determinar qué tan rápido puedes subir de rango en la nueva temporada."
+    },
+    "NextSeason": {
+        "title": "Lo Que Sabemos del Año 11 Temporada 1",
+        "operator_label": "Nuevo Operador",
+        "operator_val": "CLASIFICADO (Striker)",
+        "map_label": "Rework de Mapa",
+        "map_val": "Consulado (Rumor)",
+        "date_label": "Lanzamiento Esperado",
+        "date_val": "3 de Marzo de 2026"
+    }
+}

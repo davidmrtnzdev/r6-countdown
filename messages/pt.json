@@ -1,0 +1,45 @@
+{
+    "Metadata": {
+        "title": "Quando termina a temporada do Rainbow Six Siege? | Contagem Regressiva",
+        "description": "Contagem regressiva ao vivo para o fim da Operação Tenfold Pursuit (Y10S4) do Rainbow Six Siege. Acompanhe a data exata e o lançamento do Ano 11 Temporada 1."
+    },
+    "Hero": {
+        "status_badge": "Rastreador de Temporada",
+        "header_prefix": "OPERAÇÃO",
+        "header_suffix": "TENFOLD",
+        "subheader": "Tempo restante até o fim da temporada atual"
+    },
+    "Countdown": {
+        "days": "Dias",
+        "hours": "Horas",
+        "minutes": "Minutos",
+        "seconds": "Segundos",
+        "expired_title": "TEMPORADA AO VIVO",
+        "expired_msg": "Atualize seu jogo agora!"
+    },
+    "Progress": {
+        "start": "Início da Temp.",
+        "complete": "Concluído",
+        "end": "Fim da Temp."
+    },
+    "Article": {
+        "title": "Informações da Temporada & FAQ",
+        "completion_title": "Estimativa de Término",
+        "completion_desc": "A Operação Tenfold Pursuit está programada para terminar em <strong>3 de Março de 2026</strong>. Isso se alinha com o roteiro estratégico para o Ano 11 Temporada 1.",
+        "next_title": "Próxima Implantação",
+        "next_desc": "Prepare-se para a manutenção dos servidores Y11S1 imediatamente após a contagem regressiva. Novos ativos táticos são esperados.",
+        "checklist_title": "Lista de Verificação Tática",
+        "checklist_1": "Concluir Passe de Batalha",
+        "checklist_2": "Garantir Amuleto de Rank",
+        "checklist_3": "Ler Notas de Atualização"
+    },
+    "FAQ": {
+        "title": "Perguntas Frequentes",
+        "q1": "Quando termina a temporada atual do Rainbow Six Siege?",
+        "a1": "A Operação Tenfold Pursuit (Ano 10 Temporada 4) deve terminar em <strong>3 de Março de 2026</strong>. Os servidores geralmente ficam offline para manutenção às 9:00 AM ET / 14:00 UTC.",
+        "q2": "O que acontece quando a contagem chega a zero?",
+        "a2": "Quando a contagem regressiva termina, os servidores do jogo geralmente entram em manutenção por cerca de 60-90 minutos. Após isso, a atualização estará disponível.",
+        "q3": "Eu mantenho meu rank na próxima temporada?",
+        "a3": "Não, seu rank visível é redefinido a cada nova temporada. No entanto, seu MMR oculto não é totalmente redefinido, ajudando no balanceamento inicial."
+    }
+}

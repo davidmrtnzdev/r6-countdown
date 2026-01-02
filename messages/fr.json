@@ -1,0 +1,45 @@
+{
+    "Metadata": {
+        "title": "Quand se termine la saison Rainbow Six Siege ? | Compte à rebours en direct",
+        "description": "Compte à rebours en direct pour la fin de l'Opération Tenfold Pursuit (Y10S4) de Rainbow Six Siege. Suivez la date exacte de fin de saison et la sortie de l'Année 11 Saison 1."
+    },
+    "Hero": {
+        "status_badge": "Suivi de Saison en Direct",
+        "header_prefix": "OPÉRATION",
+        "header_suffix": "TENFOLD",
+        "subheader": "Temps restant avant la fin de la saison actuelle"
+    },
+    "Countdown": {
+        "days": "Jours",
+        "hours": "Heures",
+        "minutes": "Minutes",
+        "seconds": "Secondes",
+        "expired_title": "SAISON EN LIGNE",
+        "expired_msg": "Mettez votre jeu à jour maintenant !"
+    },
+    "Progress": {
+        "start": "Début Saison",
+        "complete": "Terminé",
+        "end": "Fin Saison"
+    },
+    "Article": {
+        "title": "Renseignements de Saison & FAQ",
+        "completion_title": "Estimation de Fin",
+        "completion_desc": "L'Opération Tenfold Pursuit devrait se terminer le <strong>3 mars 2026</strong>. Cela correspond à la feuille de route stratégique pour le déploiement de l'Année 11 Saison 1.",
+        "next_title": "Prochain Déploiement",
+        "next_desc": "Préparez-vous pour la maintenance des serveurs Y11S1 immédiatement après la fin du compte à rebours. De nouveaux actifs tactiques sont attendus.",
+        "checklist_title": "Liste de Contrôle Tactique",
+        "checklist_1": "Terminer le Battle Pass",
+        "checklist_2": "Sécuriser le Pendentif de Rang",
+        "checklist_3": "Lire les Notes de Patch"
+    },
+    "FAQ": {
+        "title": "Questions Fréquemment Posées",
+        "q1": "Quand se termine la saison actuelle de Rainbow Six Siege ?",
+        "a1": "L'Opération Tenfold Pursuit (Année 10 Saison 4) devrait se terminer le <strong>3 mars 2026</strong>. Les serveurs sont généralement hors ligne pour maintenance à 9h00 ET / 14h00 UTC.",
+        "q2": "Que se passe-t-il quand le compte à rebours atteint zéro ?",
+        "a2": "À la fin du compte à rebours, les serveurs de jeu entrent généralement en maintenance pour environ 60 à 90 minutes. Après la maintenance, la mise à jour sera disponible.",
+        "q3": "Est-ce que je garde mon rang la saison prochaine ?",
+        "a3": "Non, votre rang visible est réinitialisé à chaque nouvelle saison. Cependant, votre MMR caché n'est pas complètement réinitialisé, ce qui aide à déterminer votre placement."
+    }
+}

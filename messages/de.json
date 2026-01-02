@@ -1,0 +1,45 @@
+{
+    "Metadata": {
+        "title": "Wann endet die Rainbow Six Siege Season? | Live-Countdown",
+        "description": "Live-Countdown für das Ende von Rainbow Six Siege Operation Tenfold Pursuit (Y10S4). Verfolge das genaue Enddatum und den Start von Jahr 11 Saison 1."
+    },
+    "Hero": {
+        "status_badge": "Live-Saison-Tracker",
+        "header_prefix": "OPERATION",
+        "header_suffix": "TENFOLD",
+        "subheader": "Verbleibende Zeit bis zum Ende der aktuellen Saison"
+    },
+    "Countdown": {
+        "days": "Tage",
+        "hours": "Std",
+        "minutes": "Min",
+        "seconds": "Sek",
+        "expired_title": "SAISON LIVE",
+        "expired_msg": "Aktualisiere dein Spiel jetzt!"
+    },
+    "Progress": {
+        "start": "Saisonstart",
+        "complete": "Abgeschlossen",
+        "end": "Saisonende"
+    },
+    "Article": {
+        "title": "Saison-Infos & FAQ",
+        "completion_title": "Voraussichtliches Ende",
+        "completion_desc": "Operation Tenfold Pursuit endet voraussichtlich am <strong>3. März 2026</strong>. Dies entspricht dem strategischen Zeitplan für den Einsatz von Jahr 11 Saison 1.",
+        "next_title": "Nächster Einsatz",
+        "next_desc": "Bereite dich auf die Y11S1-Serverwartung unmittelbar nach Ablauf des Countdowns vor. Neue taktische Ausrüstung wird erwartet.",
+        "checklist_title": "Taktische Checkliste",
+        "checklist_1": "Battle Pass abschließen",
+        "checklist_2": "Rang-Talisman sichern",
+        "checklist_3": "Patch-Notes lesen"
+    },
+    "FAQ": {
+        "title": "Häufig gestellte Fragen (FAQ)",
+        "q1": "Wann endet die aktuelle Rainbow Six Siege Season?",
+        "a1": "Operation Tenfold Pursuit (Jahr 10 Saison 4) endet voraussichtlich am <strong>3. März 2026</strong>. Die Server gehen typischerweise um 9:00 Uhr ET / 14:00 Uhr UTC offline.",
+        "q2": "Was passiert, wenn der Countdown null erreicht?",
+        "a2": "Nach Ablauf des Countdowns gehen die Spielserver normalerweise für ca. 60-90 Minuten in Wartung. Danach steht das Update zum Download bereit.",
+        "q3": "Behalte ich meinen Rang in der nächsten Saison?",
+        "a3": "Nein, dein sichtbarer Rang wird mit jeder neuen Saison zurückgesetzt. Dein verborgenes MMR wird jedoch nicht vollständig zurückgesetzt."
+    }
+}

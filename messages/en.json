@@ -1,0 +1,54 @@
+{
+    "Metadata": {
+        "title": "When Does Rainbow Six Siege Season End? | R6 Live Countdown",
+        "description": "Live countdown to the end of Rainbow Six Siege Operation Tenfold Pursuit (Y10S4). Track the exact season end date and Year 11 Season 1 release time."
+    },
+    "Hero": {
+        "status_badge": "Live Season Tracker",
+        "header_prefix": "OPERATION",
+        "header_suffix": "TENFOLD",
+        "subheader": "Current Season Ends In"
+    },
+    "Countdown": {
+        "days": "Days",
+        "hours": "Hours",
+        "minutes": "Minutes",
+        "seconds": "Seconds",
+        "expired_title": "SEASON LIVE",
+        "expired_msg": "Update your game now!"
+    },
+    "Progress": {
+        "start": "Season Start",
+        "complete": "Complete",
+        "end": "Season End"
+    },
+    "Article": {
+        "title": "Season Intelligence & FAQ",
+        "completion_title": "Completion Estimate",
+        "completion_desc": "Operation Tenfold Pursuit is targeted to conclude on <strong>March 3, 2026</strong>. This aligns with the strategic roadmap for Year 11 Season 1 deployment.",
+        "next_title": "Next Deployment",
+        "next_desc": "Prepare for immediate transition to Y11S1 server maintenance following the countdown expiration. New tactical assets expected.",
+        "checklist_title": "Tactical Checklist",
+        "checklist_1": "Finish Battle Pass",
+        "checklist_2": "Secure Ranked Charm",
+        "checklist_3": "Review Patch Notes"
+    },
+    "FAQ": {
+        "title": "Frequently Asked Questions",
+        "q1": "When does the current Rainbow Six Siege season end?",
+        "a1": "Rainbow Six Siege Operation Tenfold Pursuit (Year 10 Season 4) is expected to end on <strong>March 3, 2026</strong>. The servers typically go offline for maintenance at 9:00 AM ET / 14:00 UTC.",
+        "q2": "What happens when the timer reaches zero?",
+        "a2": "When the countdown ends, the game servers usually enter a maintenance period for approximately 60-90 minutes. After maintenance, the relevant platform update (PC, PlayStation, Xbox) will be available for download.",
+        "q3": "Will I keep my rank next season?",
+        "a3": "No, your visible rank resets with every new season. However, your hidden MMR (Matchmaking Rating) is not fully reset, which helps determine how quickly you can rank up in the new season."
+    },
+    "NextSeason": {
+        "title": "What We Know About Year 11 Season 1",
+        "operator_label": "New Operator",
+        "operator_val": "REDACTED (Striker)",
+        "map_label": "Map Rework",
+        "map_val": "Consulate (Rumored)",
+        "date_label": "Expected Release",
+        "date_val": "March 3rd, 2026"
+    }
+}

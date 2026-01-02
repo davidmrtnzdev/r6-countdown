@@ -137,6 +137,10 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
               }}
             />
 
+            <div className="w-full max-w-3xl mt-8">
+              <AdPlaceholder slot="top-banner" className="h-24 w-full" />
+            </div>
+
             {/* Next Season Preview Section */}
             <div className="w-full max-w-2xl mt-12 grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="bg-white/5 border border-white/10 rounded-lg p-4 backdrop-blur-sm">
@@ -153,9 +157,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
               </div>
             </div>
 
-            <div className="w-full max-w-3xl mt-16">
-              <AdPlaceholder slot="top-banner" className="h-24 w-full" />
-            </div>
+
 
           </section>
 

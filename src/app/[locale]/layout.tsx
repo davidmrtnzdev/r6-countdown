@@ -1,4 +1,5 @@
 import { NextIntlClientProvider } from 'next-intl';
+import GoogleAdSense from "@/components/GoogleAdSense";
 import { CookieConsent } from "@/components/CookieConsent";
 import { getMessages, getTranslations } from 'next-intl/server';
 import { Geist, Geist_Mono } from "next/font/google";
@@ -65,6 +66,7 @@ export default async function LocaleLayout({
     <html lang={locale}>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}>
         <NextIntlClientProvider messages={messages}>
+          <GoogleAdSense pId={process.env.NEXT_PUBLIC_ADSENSE_ID || ""} />
           {children}
           <CookieConsent locale={locale} />
         </NextIntlClientProvider>

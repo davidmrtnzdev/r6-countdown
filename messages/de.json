@@ -41,5 +41,14 @@
         "a2": "Nach Ablauf des Countdowns gehen die Spielserver normalerweise für ca. 60-90 Minuten in Wartung. Danach steht das Update zum Download bereit.",
         "q3": "Behalte ich meinen Rang in der nächsten Saison?",
         "a3": "Nein, dein sichtbarer Rang wird mit jeder neuen Saison zurückgesetzt. Dein verborgenes MMR wird jedoch nicht vollständig zurückgesetzt."
+    },
+    "NextSeason": {
+        "title": "What We Know About Year 11 Season 1",
+        "operator_label": "New Operator",
+        "operator_val": "REDACTED",
+        "map_label": "Map Rework",
+        "map_val": "Consulate (Rumored)",
+        "date_label": "Expected Release",
+        "date_val": "March 3rd, 2026"
     }
 }

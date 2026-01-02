@@ -41,5 +41,14 @@
         "a2": "À la fin du compte à rebours, les serveurs de jeu entrent généralement en maintenance pour environ 60 à 90 minutes. Après la maintenance, la mise à jour sera disponible.",
         "q3": "Est-ce que je garde mon rang la saison prochaine ?",
         "a3": "Non, votre rang visible est réinitialisé à chaque nouvelle saison. Cependant, votre MMR caché n'est pas complètement réinitialisé, ce qui aide à déterminer votre placement."
+    },
+    "NextSeason": {
+        "title": "What We Know About Year 11 Season 1",
+        "operator_label": "New Operator",
+        "operator_val": "REDACTED",
+        "map_label": "Map Rework",
+        "map_val": "Consulate (Rumored)",
+        "date_label": "Expected Release",
+        "date_val": "March 3rd, 2026"
     }
 }

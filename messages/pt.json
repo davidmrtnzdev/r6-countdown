@@ -41,5 +41,14 @@
         "a2": "Quando a contagem regressiva termina, os servidores do jogo geralmente entram em manutenção por cerca de 60-90 minutos. Após isso, a atualização estará disponível.",
         "q3": "Eu mantenho meu rank na próxima temporada?",
         "a3": "Não, seu rank visível é redefinido a cada nova temporada. No entanto, seu MMR oculto não é totalmente redefinido, ajudando no balanceamento inicial."
+    },
+    "NextSeason": {
+        "title": "What We Know About Year 11 Season 1",
+        "operator_label": "New Operator",
+        "operator_val": "REDACTED",
+        "map_label": "Map Rework",
+        "map_val": "Consulate (Rumored)",
+        "date_label": "Expected Release",
+        "date_val": "March 3rd, 2026"
     }
 }

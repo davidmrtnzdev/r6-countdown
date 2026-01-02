@@ -3,6 +3,7 @@ import { SeasonProgress } from "@/components/SeasonProgress";
 import { AdPlaceholder } from "@/components/AdPlaceholder";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import { setRequestLocale, getTranslations } from 'next-intl/server';
+import NextImage from 'next/image';
 
 // Season dates
 const SEASON_START = "2025-12-02T14:00:00Z"; // Y10S4 Launch
@@ -65,11 +66,14 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      {/* Global Background Image (Low Opacity R6 Theme) */}
       <div className="fixed inset-0 z-0">
         <div className="absolute inset-0 bg-r6-darker z-0" />
-        <div
-          className="absolute inset-0 bg-[url('/bg.jpg')] bg-cover bg-center opacity-20"
+        <NextImage
+          src="/bg.jpg"
+          alt="Rainbow Six Background"
+          fill
+          priority
+          className="object-cover object-center opacity-20"
           style={{ filter: 'grayscale(30%) contrast(1.2)' }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-r6-darker/60 via-transparent to-r6-darker/90 z-10" />
@@ -91,7 +95,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
           {/* Hero / Countdown Section */}
           <section className="w-full flex flex-col items-center justify-center p-6 lg:py-20 text-center">
 
-            <div className="space-y-6 mb-12 animate-in fade-in slide-in-from-bottom-5 duration-700">
+            <div className="space-y-6 mb-12">
               <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-r6-orange/30 bg-r6-orange/10 text-r6-orange text-sm font-semibold tracking-wide uppercase shadow-[0_0_20px_rgba(255,85,0,0.15)]">
                 <span className="relative flex h-2 w-2">
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-r6-orange opacity-75"></span>

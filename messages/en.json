@@ -23,24 +23,26 @@
         "end": "Season End"
     },
     "Article": {
-        "title": "Season Intelligence & FAQ",
-        "completion_title": "Completion Estimate",
-        "completion_desc": "Operation Tenfold Pursuit is targeted to conclude on <strong>March 3, 2026</strong>. This aligns with the strategic roadmap for Year 11 Season 1 deployment.",
-        "next_title": "Next Deployment",
-        "next_desc": "Prepare for immediate transition to Y11S1 server maintenance following the countdown expiration. New tactical assets expected.",
-        "checklist_title": "Tactical Checklist",
-        "checklist_1": "Finish Battle Pass",
-        "checklist_2": "Secure Ranked Charm",
-        "checklist_3": "Review Patch Notes"
+        "title": "Operation Tenfold Pursuit: Complete Season Guide",
+        "completion_title": "Season Timeline & Maintenance",
+        "completion_desc": "Rainbow Six Siege <strong>Operation Tenfold Pursuit (Year 10 Season 4)</strong> is scheduled to conclude on <strong>March 3, 2026</strong>. This date follows Ubisoft's standard quarterly release cycle, which typically lasts around 90 days. <br><br>The transition to Year 11 Season 1 will begin with a scheduled maintenance period, usually starting at <strong>09:00 AM ET (14:00 UTC)</strong>. During this downtime, ranked matchmaking will be disabled for approximately 60 to 90 minutes while the servers are updated. Players should ensure they complete their final ranked matches at least 30 minutes before the cutoff to avoid abandon penalties.",
+        "next_title": "Ranked Rewards & MMR Reset",
+        "next_desc": "As the season ends, your final rank will determine the rewards you receive, including the seasonal charm, Alpha Packs, and background cards. <br><br><strong>Rank Reset Explained:</strong> At the start of Y11S1, every player's visual rank will reset to <strong>Copper V</strong>. However, your hidden <strong>Matchmaking Rating (MMR)</strong> does <em>not</em> fully reset. This 'Skill Rating' persists and helps the system match you against players of similar skill level during your placement matches. This mechanic ensures that Champion-level players do not get matched against true Copper players during the first week of the new season.",
+        "checklist_title": "End-of-Season Checklist",
+        "checklist_1": "Maximize Battle Pass (Tier 100)",
+        "checklist_2": "Secure Gold/Plat Ranked Charm",
+        "checklist_3": "Spend excess Bravo Tickets"
     },
     "FAQ": {
         "title": "Frequently Asked Questions",
         "q1": "When does the current Rainbow Six Siege season end?",
-        "a1": "Rainbow Six Siege Operation Tenfold Pursuit (Year 10 Season 4) is expected to end on <strong>March 3, 2026</strong>. The servers typically go offline for maintenance at 9:00 AM ET / 14:00 UTC.",
-        "q2": "What happens when the timer reaches zero?",
-        "a2": "When the countdown ends, the game servers usually enter a maintenance period for approximately 60-90 minutes. After maintenance, the relevant platform update (PC, PlayStation, Xbox) will be available for download.",
-        "q3": "Will I keep my rank next season?",
-        "a3": "No, your visible rank resets with every new season. However, your hidden MMR (Matchmaking Rating) is not fully reset, which helps determine how quickly you can rank up in the new season."
+        "a1": "Rainbow Six Siege Operation Tenfold Pursuit (Year 10 Season 4) is targeted to end on <strong>March 3, 2026</strong>. This date is based on the in-game Battle Pass timer and Ubisoft's historical release patterns for Year 10. Dates may shift by 24-48 hours depending on technical stability and last-minute delays.",
+        "q2": "What happens to my Rank and MMR?",
+        "a2": "When Y11S1 launches, your visual rank resets to Copper V. However, your hidden MMR (Skill Rating) carries over. If you finished High Platinum or Diamond, you will gain significantly more RP (Rank Points) per win at the start of the next season, allowing you to return to your 'true rank' faster. This is known as 'RP Gain/Loss Disparity'.",
+        "q3": "Do Battle Pass tokens carry over?",
+        "a3": "No. <strong>Battle Pass tokens do not carry over</strong> to the next season. You must spend all your earned tokens on Battle Pass rewards before the timer hits zero. Any unspent tokens will disappear. However, unused Bravo Tickets typically remain in your inventory.",
+        "q4": "Is Cross-Progression active?",
+        "a4": "Yes. Your cosmetics, renown, credits, and operators are shared across all platforms (PC, Xbox, PlayStation) as long as your accounts are linked to the same <strong>Ubisoft Connect</strong> ID. However, rank progression is separate between PC and Console pools."
     },
     "NextSeason": {
         "title": "What We Know About Year 11 Season 1",
@@ -50,5 +52,29 @@
         "map_val": "Consulate (Rumored)",
         "date_label": "Expected Release",
         "date_val": "March 3rd, 2026"
+    },
+    "About": {
+        "meta_title": "About Us | R6 Countdown",
+        "meta_description": "Learn about the mission behind R6 Countdown and how we track Rainbow Six Siege seasons.",
+        "title": "About R6 Countdown",
+        "p1": "R6 Countdown is a community-driven project dedicated to providing the most accurate and up-to-date countdown timers for Rainbow Six Siege seasonal updates.",
+        "p2": "We understand the frustration of timezone conversions and unclear release schedules. Our mission is to simplify this for players worldwide.",
+        "mission_title": "Our Mission",
+        "mission_desc": "To be the #1 reliable source for Siege timing intelligence, helping players maximize their Battle Pass progression and rank grinding."
+    },
+    "Contact": {
+        "meta_title": "Contact Us | R6 Countdown",
+        "meta_description": "Get in touch with the R6 Countdown team for feedback or inquiries.",
+        "title": "Contact Us",
+        "subtitle": "Have a suggestion, found a bug, or just want to say hello? We'd love to hear from you.",
+        "email_title": "Email Support",
+        "email_desc": "For general inquiries and feedback:",
+        "disclaimer": "This website is not affiliated with, endorsed, sponsored, or specifically approved by Ubisoft Entertainment. Rainbow Six Siege is a registered trademark of Ubisoft."
+    },
+    "Footer": {
+        "about": "About",
+        "contact": "Contact",
+        "privacy": "Privacy",
+        "terms": "Terms"
     }
 }

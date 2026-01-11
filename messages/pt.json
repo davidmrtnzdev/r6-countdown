@@ -23,32 +23,58 @@
         "end": "Fim da Temp."
     },
     "Article": {
-        "title": "Informações da Temporada & FAQ",
-        "completion_title": "Estimativa de Término",
-        "completion_desc": "A Operação Tenfold Pursuit está programada para terminar em <strong>3 de Março de 2026</strong>. Isso se alinha com o roteiro estratégico para o Ano 11 Temporada 1.",
-        "next_title": "Próxima Implantação",
-        "next_desc": "Prepare-se para a manutenção dos servidores Y11S1 imediatamente após a contagem regressiva. Novos ativos táticos são esperados.",
-        "checklist_title": "Lista de Verificação Tática",
-        "checklist_1": "Concluir Passe de Batalha",
-        "checklist_2": "Garantir Amuleto de Rank",
-        "checklist_3": "Ler Notas de Atualização"
+        "title": "Operação Tenfold Pursuit: Guia Completo",
+        "completion_title": "Cronograma e Manutenção",
+        "completion_desc": "A <strong>Operação Tenfold Pursuit (Y10S4)</strong> está programada para terminar em <strong>3 de Março de 2026</strong>. Isso segue o ciclo trimestral padrão da Ubisoft (~90 dias). <br><br>A transição para o Ano 11 Temporada 1 começará com uma manutenção, geralmente às <strong>09:00 AM ET (14:00 UTC)</strong>. As partidas ranqueadas serão desativadas 60-90 minutos antes. Recomendamos terminar suas partidas 30 minutos antes do corte para evitar penalidades.",
+        "next_title": "Recompensas de Rank e Reset de MMR",
+        "next_desc": "No final da temporada, você receberá suas recompensas (amuleto, pacotes Alpha). <br><br><strong>Reset de Rank Explicado:</strong> No início do Y11S1, seu rank visual voltará para <strong>Cobre V</strong>. No entanto, seu <strong>MMR Oculto</strong> (Skill Rating) <em>não</em> reseta totalmente. Isso ajuda o sistema a te colocar contra jogadores do seu nível real nas primeiras partidas.",
+        "checklist_title": "Checklist de Fim de Temporada",
+        "checklist_1": "Completar Passe de Batalha (Nível 100)",
+        "checklist_2": "Garantir Amuleto Ouro/Platina",
+        "checklist_3": "Gastar Tickets Bravo restantes"
     },
     "FAQ": {
         "title": "Perguntas Frequentes",
-        "q1": "Quando termina a temporada atual do Rainbow Six Siege?",
-        "a1": "A Operação Tenfold Pursuit (Ano 10 Temporada 4) deve terminar em <strong>3 de Março de 2026</strong>. Os servidores geralmente ficam offline para manutenção às 9:00 AM ET / 14:00 UTC.",
-        "q2": "O que acontece quando a contagem chega a zero?",
-        "a2": "Quando a contagem regressiva termina, os servidores do jogo geralmente entram em manutenção por cerca de 60-90 minutos. Após isso, a atualização estará disponível.",
-        "q3": "Eu mantenho meu rank na próxima temporada?",
-        "a3": "Não, seu rank visível é redefinido a cada nova temporada. No entanto, seu MMR oculto não é totalmente redefinido, ajudando no balanceamento inicial."
+        "q1": "Quando termina a temporada atual?",
+        "a1": "A Operação Tenfold Pursuit (Y10S4) deve terminar em <strong>3 de Março de 2026</strong>. Essa data baseia-se no timer do Passe de Batalha. Pode variar 24-48h por motivos técnicos.",
+        "q2": "O que acontece com meu Rank e MMR?",
+        "a2": "No lançamento do Y11S1, seu rank visual será Cobre V. Mas seu MMR oculto é mantido. Se você era Platina ou Diamante, ganhará muito mais pontos (RP) por vitória no início para retornar ao seu rank verdadeiro rapidamente.",
+        "q3": "Os tokens do Passe de Batalha expiram?",
+        "a3": "Sim. <strong>Os tokens do Passe de Batalha não acumulam</strong>. Você deve gastá-los antes do contador zerar. Tickets Bravo geralmente são mantidos.",
+        "q4": "Existe Cross-Progression?",
+        "a4": "Sim. Suas skins, credibilidade e operadores são compartilhados entre PC, Xbox e PlayStation se usar a mesma conta <strong>Ubisoft Connect</strong>. Porém, o rank é separado entre PC e Console."
     },
     "NextSeason": {
-        "title": "What We Know About Year 11 Season 1",
-        "operator_label": "New Operator",
-        "operator_val": "REDACTED",
-        "map_label": "Map Rework",
-        "map_val": "Consulate (Rumored)",
-        "date_label": "Expected Release",
-        "date_val": "March 3rd, 2026"
+        "title": "O que sabemos sobre o Ano 11 Temporada 1",
+        "operator_label": "Novo Operador",
+        "operator_val": "CONFIDENCIAL (Striker)",
+        "map_label": "Rework de Mapa",
+        "map_val": "Consuado (Rumor)",
+        "date_label": "Lançamento Esperado",
+        "date_val": "3 de Março de 2026"
+    },
+    "About": {
+        "meta_title": "Sobre Nós | R6 Countdown",
+        "meta_description": "Conheça a missão do R6 Countdown e como rastreamos as temporadas de Rainbow Six Siege.",
+        "title": "Sobre o R6 Countdown",
+        "p1": "O R6 Countdown é um projeto da comunidade dedicado a fornecer os timers mais precisos para atualizações do Rainbow Six Siege.",
+        "p2": "Entendemos a frustração com fusos horários e datas incertas. Nossa missão é simplificar isso para jogadores do mundo todo.",
+        "mission_title": "Nossa Missão",
+        "mission_desc": "Ser a fonte nº 1 de inteligência sobre tempo no Siege, ajudando jogadores a maximizar seu Passe de Batalha e Rank."
+    },
+    "Contact": {
+        "meta_title": "Contato | R6 Countdown",
+        "meta_description": "Entre em contato com a equipe R6 Countdown.",
+        "title": "Contato",
+        "subtitle": "Sugestões, bugs ou apenas um oi? Adoraríamos ouvir de você.",
+        "email_title": "Suporte por E-mail",
+        "email_desc": "Para dúvidas gerais:",
+        "disclaimer": "Este site não é afiliado à Ubisoft Entertainment. Rainbow Six Siege é uma marca registrada da Ubisoft."
+    },
+    "Footer": {
+        "about": "Sobre",
+        "contact": "Contato",
+        "privacy": "Privacidade",
+        "terms": "Termos"
     }
 }

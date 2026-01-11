@@ -4,7 +4,7 @@ import GoogleAdSense from "@/components/GoogleAdSense";
 import { getMessages, getTranslations } from 'next-intl/server';
 import { Geist, Geist_Mono } from "next/font/google";
 import { notFound } from "next/navigation";
-import { routing } from '../../i18n/routing';
+import { routing, Link } from '../../i18n/routing';
 
 import "../globals.css";
 
@@ -70,6 +70,26 @@ export default async function LocaleLayout({
         <NextIntlClientProvider messages={messages}>
           <GoogleAdSense pId={process.env.NEXT_PUBLIC_ADSENSE_ID || ""} />
           {children}
+
+          <footer className="w-full max-w-[1600px] mx-auto p-6 md:py-12 flex flex-col items-center gap-6 mt-12 border-t border-white/5">
+            <div className="flex flex-wrap justify-center gap-6 text-sm text-gray-400">
+              <Link href="/about" className="hover:text-r6-orange transition-colors">
+                {messages.Footer.about}
+              </Link>
+              <Link href="/contact" className="hover:text-r6-orange transition-colors">
+                {messages.Footer.contact}
+              </Link>
+              <Link href="/legal/privacy" className="hover:text-r6-orange transition-colors">
+                {messages.Footer.privacy}
+              </Link>
+              <Link href="/legal/terms" className="hover:text-r6-orange transition-colors">
+                {messages.Footer.terms}
+              </Link>
+            </div>
+            <p className="text-xs text-gray-600 text-center max-w-lg">
+              Rainbow Six Siege is a registered trademark of Ubisoft. This site is a fan-made tool and is not affiliated with Ubisoft.
+            </p>
+          </footer>
 
         </NextIntlClientProvider>
       </body>

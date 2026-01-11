@@ -23,32 +23,58 @@
         "end": "Fin Saison"
     },
     "Article": {
-        "title": "Renseignements de Saison & FAQ",
-        "completion_title": "Estimation de Fin",
-        "completion_desc": "L'Opération Tenfold Pursuit devrait se terminer le <strong>3 mars 2026</strong>. Cela correspond à la feuille de route stratégique pour le déploiement de l'Année 11 Saison 1.",
-        "next_title": "Prochain Déploiement",
-        "next_desc": "Préparez-vous pour la maintenance des serveurs Y11S1 immédiatement après la fin du compte à rebours. De nouveaux actifs tactiques sont attendus.",
-        "checklist_title": "Liste de Contrôle Tactique",
-        "checklist_1": "Terminer le Battle Pass",
-        "checklist_2": "Sécuriser le Pendentif de Rang",
-        "checklist_3": "Lire les Notes de Patch"
+        "title": "Opération Tenfold Pursuit : Guide Complet",
+        "completion_title": "Calendrier et Maintenance",
+        "completion_desc": "L'<strong>Opération Tenfold Pursuit (A10S4)</strong> devrait se terminer le <strong>3 mars 2026</strong>. Cette date suit le cycle trimestriel standard d'Ubisoft (~90 jours). <br><br>La transition vers l'Année 11 Saison 1 commencera par une maintenance, généralement à <strong>09:00 AM ET (14:00 UTC)</strong>. Le matchmaking classé sera désactivé 60 à 90 minutes avant. Nous recommandons de terminer vos matchs 30 minutes avant la coupure pour éviter les pénalités.",
+        "next_title": "Récompenses et Réinitialisation MMR",
+        "next_desc": "À la fin de la saison, vous recevrez vos récompenses (pendentif, packs Alpha). <br><br><strong>Réinitialisation de Rang :</strong> Au début de l'A11S1, votre rang visuel reviendra à <strong>Cuivre V</strong>. Cependant, votre <strong>MMR Caché</strong> (Skill Rating) <em>ne</em> se réinitialise pas entièrement. Cela aide le système à vous placer contre des joueurs de votre niveau réel lors des premiers matchs.",
+        "checklist_title": "Checklist de Fin de Saison",
+        "checklist_1": "Terminer le Battle Pass (Niveau 100)",
+        "checklist_2": "Sécuriser le Rang Or/Platine",
+        "checklist_3": "Dépenser les Tickets Bravo restants"
     },
     "FAQ": {
         "title": "Questions Fréquemment Posées",
-        "q1": "Quand se termine la saison actuelle de Rainbow Six Siege ?",
-        "a1": "L'Opération Tenfold Pursuit (Année 10 Saison 4) devrait se terminer le <strong>3 mars 2026</strong>. Les serveurs sont généralement hors ligne pour maintenance à 9h00 ET / 14h00 UTC.",
-        "q2": "Que se passe-t-il quand le compte à rebours atteint zéro ?",
-        "a2": "À la fin du compte à rebours, les serveurs de jeu entrent généralement en maintenance pour environ 60 à 90 minutes. Après la maintenance, la mise à jour sera disponible.",
-        "q3": "Est-ce que je garde mon rang la saison prochaine ?",
-        "a3": "Non, votre rang visible est réinitialisé à chaque nouvelle saison. Cependant, votre MMR caché n'est pas complètement réinitialisé, ce qui aide à déterminer votre placement."
+        "q1": "Quand se termine la saison actuelle ?",
+        "a1": "L'Opération Tenfold Pursuit (A10S4) se terminera le <strong>3 mars 2026</strong>. Cette date est basée sur le minuteur du Battle Pass. Elle peut varier de 24 à 48h pour des raisons techniques.",
+        "q2": "Qu'arrive-t-il à mon Rang et MMR ?",
+        "a2": "Au lancement de l'A11S1, votre rang visible sera Cuivre V. Mais votre MMR caché est conservé. Si vous étiez Platine ou Diamant, vous gagnerez beaucoup plus de points (RP) par victoire au début pour revenir à votre vrai rang rapidement.",
+        "q3": "Les jetons Battle Pass sont-ils conservés ?",
+        "a3": "Non. <strong>Les jetons Battle Pass ne sont pas conservés</strong>. Vous devez les dépenser avant la fin du compteur. Les Tickets Bravo sont généralement conservés.",
+        "q4": "Y a-t-il une Cross-Progression ?",
+        "a4": "Oui. Vos skins, renommée et agents sont partagés entre PC, Xbox et PlayStation si vous utilisez le même compte <strong>Ubisoft Connect</strong>. Cependant, le rang est séparé entre PC et Console."
     },
     "NextSeason": {
-        "title": "What We Know About Year 11 Season 1",
-        "operator_label": "New Operator",
-        "operator_val": "REDACTED",
-        "map_label": "Map Rework",
-        "map_val": "Consulate (Rumored)",
-        "date_label": "Expected Release",
-        "date_val": "March 3rd, 2026"
+        "title": "Ce que nous savons de l'Année 11 Saison 1",
+        "operator_label": "Nouvel Opérateur",
+        "operator_val": "CLASSIFIÉ (Striker)",
+        "map_label": "Refonte de Carte",
+        "map_val": "Consulat (Rumeur)",
+        "date_label": "Date Prévue",
+        "date_val": "3 Mars 2026"
+    },
+    "About": {
+        "meta_title": "À Propos | R6 Countdown",
+        "meta_description": "Découvrez la mission de R6 Countdown et comment nous suivons les saisons de Rainbow Six Siege.",
+        "title": "À Propos de R6 Countdown",
+        "p1": "R6 Countdown est un projet communautaire dédié à fournir les minuteurs les plus précis pour les mises à jour de Rainbow Six Siege.",
+        "p2": "Nous comprenons la frustration des fuseaux horaires et des dates floues. Notre mission est de simplifier cela pour les joueurs du monde entier.",
+        "mission_title": "Notre Mission",
+        "mission_desc": "Être la source n°1 d'intelligence temporelle sur Siege, aidant les joueurs à maximiser leur Battle Pass et leur Rang."
+    },
+    "Contact": {
+        "meta_title": "Contactez-nous | R6 Countdown",
+        "meta_description": "Contactez l'équipe R6 Countdown.",
+        "title": "Contact",
+        "subtitle": "Des suggestions, des bugs ou un bonjour ? Nous aimerions vous entendre.",
+        "email_title": "Support Email",
+        "email_desc": "Pour les demandes générales :",
+        "disclaimer": "Ce site n'est pas affilié à Ubisoft Entertainment. Rainbow Six Siege est une marque déposée d'Ubisoft."
+    },
+    "Footer": {
+        "about": "À Propos",
+        "contact": "Contact",
+        "privacy": "Confidentialité",
+        "terms": "Conditions"
     }
 }

@@ -1,6 +1,7 @@
 import { NextIntlClientProvider } from 'next-intl';
 import GoogleAdSense from "@/components/GoogleAdSense";
 import { GoogleTagManager } from '@next/third-parties/google';
+import { Analytics } from "@vercel/analytics/react";
 
 import { getMessages, getTranslations } from 'next-intl/server';
 import { Geist, Geist_Mono } from "next/font/google";
@@ -68,6 +69,7 @@ export default async function LocaleLayout({
   return (
     <html lang={locale}>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}>
+        <Analytics />
         <GoogleTagManager gtmId="GTM-P6XC5D6L" />
         <NextIntlClientProvider messages={messages}>
           <GoogleAdSense pId={process.env.NEXT_PUBLIC_ADSENSE_ID || ""} />

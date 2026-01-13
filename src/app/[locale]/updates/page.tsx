@@ -36,20 +36,31 @@ export default function UpdatesPage() {
                             {t('section_1_desc')}
                         </p>
 
-                        <div className="grid md:grid-cols-2 gap-6">
+                        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                            {/* Change 1 */}
                             <div className="bg-black/30 p-6 rounded-xl border border-white/5">
-                                <h3 className="text-lg font-bold text-white mb-2">SOLIS (Nerf)</h3>
+                                <h3 className="text-lg font-bold text-white mb-2">{t('change_1_title')}</h3>
                                 <ul className="list-disc list-inside text-gray-400 space-y-2 text-sm">
-                                    <li>{t('solis_change_1')}</li>
-                                    <li>{t('solis_change_2')}</li>
+                                    <li>{t('change_1_point_1')}</li>
+                                    <li>{t('change_1_point_2')}</li>
                                 </ul>
                             </div>
 
+                            {/* Change 2 */}
                             <div className="bg-black/30 p-6 rounded-xl border border-white/5">
-                                <h3 className="text-lg font-bold text-white mb-2">STRIKER (Buff)</h3>
+                                <h3 className="text-lg font-bold text-white mb-2">{t('change_2_title')}</h3>
                                 <ul className="list-disc list-inside text-gray-400 space-y-2 text-sm">
-                                    <li>{t('striker_change_1')}</li>
-                                    <li>{t('striker_change_2')}</li>
+                                    <li>{t('change_2_point_1')}</li>
+                                    <li>{t('change_2_point_2')}</li>
+                                </ul>
+                            </div>
+
+                            {/* Change 3 */}
+                            <div className="bg-black/30 p-6 rounded-xl border border-white/5">
+                                <h3 className="text-lg font-bold text-white mb-2">{t('change_3_title')}</h3>
+                                <ul className="list-disc list-inside text-gray-400 space-y-2 text-sm">
+                                    <li>{t('change_3_point_1')}</li>
+                                    <li>{t('change_3_point_2')}</li>
                                 </ul>
                             </div>
                         </div>

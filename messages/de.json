@@ -76,5 +76,25 @@
         "contact": "Kontakt",
         "privacy": "Datenschutz",
         "terms": "AGB"
+    },
+    "Header": {
+        "home": "Startseite",
+        "updates": "Updates & Leaks",
+        "about": "Über Uns"
+    },
+    "Updates": {
+        "meta_title": "Y10S4 Balance-Änderungen & Y11S1 Leaks | R6 Patch Notes",
+        "meta_description": "Exklusive Berichterstattung über R6 Siege Y10S4 Operator-Balance, einschließlich Solis-Nerfs, Striker-Buffs und die neuesten Leaks zu Jahr 11 Saison 1.",
+        "title": "Saison-Updates & Infos",
+        "section_1_title": "Y10S4 Balance-Matrix",
+        "section_1_desc": "Der Mid-Season-Patch bringt kritische Anpassungen für die Verteidiger-Meta. Ubisoft konzentriert sich darauf, die Roaming-Effizienz von Solis zu verringern und Strikers Nutzen zu erhöhen, um ihn zu einer echten Alternative zu Zofia zu machen.",
+        "solis_change_1": "SPEC-IO Helm Dauer auf 10s reduziert (war 15s).",
+        "solis_change_2": "P90 kann während des Scannens nicht verwendet werden (muss abgelegt werden).",
+        "striker_change_1": "EMP-Granaten zur Ausrüstung hinzugefügt.",
+        "striker_change_2": "Blendgranaten auf 2 reduziert (war 3).",
+        "section_2_title": "Y11S1: Operation Early Warning",
+        "section_2_desc": "Erste Berichte deuten darauf hin, dass Jahr 11 mit einer umfassenden Überarbeitung von Konsulat und einem neuen griechischen Operator namens 'Hoplite' startet, der einen Phalanx-Schild einsetzt.",
+        "rumor_alert_title": "Unbestätigte Informationen",
+        "rumor_alert_desc": "Änderungen vorbehalten. Daten aus Testserver-Build 89402 extrahiert."
     }
 }

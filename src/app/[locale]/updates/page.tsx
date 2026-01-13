@@ -1,0 +1,84 @@
+import { useTranslations } from 'next-intl';
+import { getTranslations } from 'next-intl/server';
+import { Analytics } from '@vercel/analytics/react';
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+    const { locale } = await params;
+    const t = await getTranslations({ locale, namespace: 'Updates' });
+
+    return {
+        title: t('meta_title'),
+        description: t('meta_description'),
+    };
+}
+
+export default function UpdatesPage() {
+    const t = useTranslations('Updates');
+
+    return (
+        <main className="flex-grow flex flex-col items-center justify-start p-6 md:p-12 max-w-4xl mx-auto w-full">
+            <h1 className="text-4xl md:text-5xl font-black text-white mb-8 text-center uppercase tracking-tighter">
+                {t('title')}
+            </h1>
+
+            <div className="space-y-12 w-full">
+                {/* Section 1: Balance Changes */}
+                <section className="bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur-sm">
+                    <div className="flex items-center gap-4 mb-6">
+                        <div className="h-2 w-2 bg-r6-orange rounded-full animate-pulse" />
+                        <h2 className="text-2xl font-bold text-r6-orange uppercase tracking-wide">
+                            {t('section_1_title')}
+                        </h2>
+                    </div>
+
+                    <div className="prose prose-invert max-w-none">
+                        <p className="text-gray-300 mb-6 leading-relaxed">
+                            {t('section_1_desc')}
+                        </p>
+
+                        <div className="grid md:grid-cols-2 gap-6">
+                            <div className="bg-black/30 p-6 rounded-xl border border-white/5">
+                                <h3 className="text-lg font-bold text-white mb-2">SOLIS (Nerf)</h3>
+                                <ul className="list-disc list-inside text-gray-400 space-y-2 text-sm">
+                                    <li>{t('solis_change_1')}</li>
+                                    <li>{t('solis_change_2')}</li>
+                                </ul>
+                            </div>
+
+                            <div className="bg-black/30 p-6 rounded-xl border border-white/5">
+                                <h3 className="text-lg font-bold text-white mb-2">STRIKER (Buff)</h3>
+                                <ul className="list-disc list-inside text-gray-400 space-y-2 text-sm">
+                                    <li>{t('striker_change_1')}</li>
+                                    <li>{t('striker_change_2')}</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                {/* Section 2: Future Leaks */}
+                <section className="bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur-sm">
+                    <div className="flex items-center gap-4 mb-6">
+                        <div className="h-2 w-2 bg-purple-500 rounded-full" />
+                        <h2 className="text-2xl font-bold text-white uppercase tracking-wide opacity-90">
+                            {t('section_2_title')}
+                        </h2>
+                    </div>
+
+                    <div className="prose prose-invert max-w-none">
+                        <p className="text-gray-300 leading-relaxed">
+                            {t('section_2_desc')}
+                        </p>
+
+                        <div className="mt-6 p-4 bg-r6-orange/10 border border-r6-orange/20 rounded-lg">
+                            <h4 className="font-bold text-r6-orange mb-2">{t('rumor_alert_title')}</h4>
+                            <p className="text-sm text-gray-400">{t('rumor_alert_desc')}</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <Analytics />
+        </main>
+    );
+}

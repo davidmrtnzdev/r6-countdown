@@ -76,5 +76,25 @@
         "contact": "Contact",
         "privacy": "Confidentialité",
         "terms": "Conditions"
+    },
+    "Header": {
+        "home": "Accueil",
+        "updates": "Mises à jour",
+        "about": "À Propos"
+    },
+    "Updates": {
+        "meta_title": "Équilibrage Y10S4 et Fuites Y11S1 | Notes de Patch R6",
+        "meta_description": "Couverture exclusive de l'équilibrage des opérateurs R6 Siege Y10S4, incluant les nerfs de Solis, les buffs de Striker et les dernières fuites de l'Année 11 Saison 1.",
+        "title": "Mises à jour et Renseignements",
+        "section_1_title": "Matrice d'Équilibrage Y10S4",
+        "section_1_desc": "Le patch de mi-saison apporte des ajustements critiques à la méta des défenseurs. Ubisoft se concentre sur la réduction de l'efficacité de roaming de Solis tout en boostant l'utilité de Striker pour en faire une alternative viable à Zofia.",
+        "solis_change_1": "Durée du casque SPEC-IO réduite à 10s (au lieu de 15s).",
+        "solis_change_2": "Impossible d'utiliser le P90 pendant le scan (doit déséquiper).",
+        "striker_change_1": "Grenades EMP ajoutées à l'équipement.",
+        "striker_change_2": "Grenades flash réduites à 2 (au lieu de 3).",
+        "section_2_title": "Y11S1 : Opération Early Warning",
+        "section_2_desc": "Les premiers rapports suggèrent que l'Année 11 sera lancée avec une refonte majeure de Consulat et un nouvel opérateur grec nommé 'Hoplite' qui déploie un bouclier phalange.",
+        "rumor_alert_title": "Information Non Confirmée",
+        "rumor_alert_desc": "Sujet à changement. Données extraites de la build 89402 du Serveur de Test."
     }
 }

@@ -76,5 +76,25 @@
         "contact": "Contacto",
         "privacy": "Privacidad",
         "terms": "Términos"
+    },
+    "Header": {
+        "home": "Inicio",
+        "updates": "Notas del Parche",
+        "about": "Sobre Nosotros"
+    },
+    "Updates": {
+        "meta_title": "Cambios de Balance Y10S4 y Filtraciones Y11S1 | Notas del Parche R6",
+        "meta_description": "Cobertura exclusiva del balance de operadores de R6 Siege Y10S4, incluyendo nerfs a Solis, mejoras a Striker y las últimas filtraciones del Año 11 Temporada 1.",
+        "title": "Actualizaciones e Inteligencia",
+        "section_1_title": "Matriz de Balance Y10S4",
+        "section_1_desc": "El parche de mitad de temporada trae ajustes críticos al meta de defensores. Ubisoft se centra en reducir la eficacia de roaming de Solis mientras mejora la utilidad de Striker para hacerlo una alternativa viable a Zofia.",
+        "solis_change_1": "Duración del casco SPEC-IO reducida a 10s (antes 15s).",
+        "solis_change_2": "No se puede usar la P90 mientras se escanea (se debe desequipar).",
+        "striker_change_1": "Granadas EMP añadidas al equipamiento.",
+        "striker_change_2": "Granadas cegadoras reducidas a 2 (antes 3).",
+        "section_2_title": "Y11S1: Operación Alerta Temprana",
+        "section_2_desc": "Los informes iniciales sugieren que el Año 11 se lanzará con un gran rework de Consulado y un nuevo operador griego con nombre en código 'Hoplite' que despliega un escudo falange.",
+        "rumor_alert_title": "Información No Confirmada",
+        "rumor_alert_desc": "Sujeto a cambios. Datos extraídos de la build 89402 del Servidor de Pruebas."
     }
 }

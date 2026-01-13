@@ -71,10 +71,30 @@
         "email_desc": "For general inquiries and feedback:",
         "disclaimer": "This website is not affiliated with, endorsed, sponsored, or specifically approved by Ubisoft Entertainment. Rainbow Six Siege is a registered trademark of Ubisoft."
     },
+    "Header": {
+        "home": "Home",
+        "updates": "Updates & Leaks",
+        "about": "About"
+    },
     "Footer": {
         "about": "About",
         "contact": "Contact",
         "privacy": "Privacy",
         "terms": "Terms"
+    },
+    "Updates": {
+        "meta_title": "R6 Siege Y10S4 Balance Changes & Y11S1 Leaks | Update Notes",
+        "meta_description": "Exclusive coverage of Rainbow Six Siege Year 10 Season 4 operator balances, including Solis nerfs, Striker buffs, and latest Year 11 Season 1 leaks.",
+        "title": "Season Updates & Intelligence",
+        "section_1_title": "Y10S4 Balance Matrix",
+        "section_1_desc": "The mid-season reinforcement patch brings critical adjustments to the defender meta. Ubisoft focuses on reducing the roaming efficiency of Solis while boosting Striker's utility to make him a viable alternative to Zofia.",
+        "solis_change_1": "SPEC-IO Helm duration reduced to 10s (was 15s).",
+        "solis_change_2": "Cannot use P90 while scanning (must unequip).",
+        "striker_change_1": "EMP Grenades added to loadout.",
+        "striker_change_2": "Flashbangs reduced to 2 (was 3).",
+        "section_2_title": "Y11S1: Operation Early Warning",
+        "section_2_desc": "Initial reports suggest Year 11 will launch with a heavy rework of Consulate and a new Greek operator codenamed 'Hoplite' who deploys a phalanx shield.",
+        "rumor_alert_title": "Unconfirmed Intel",
+        "rumor_alert_desc": "Subject to change. Data mined from Test Server build 89402."
     }
 }

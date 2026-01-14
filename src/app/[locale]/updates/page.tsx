@@ -37,7 +37,7 @@ export default function UpdatesPage() {
                         </p>
 
                         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                            {/* Change 1 */}
+                            {/* Change 1 - ACE */}
                             <div className="bg-black/30 p-6 rounded-xl border border-white/5">
                                 <h3 className="text-lg font-bold text-white mb-2">{t('change_1_title')}</h3>
                                 <ul className="list-disc list-inside text-gray-400 space-y-2 text-sm">
@@ -46,7 +46,7 @@ export default function UpdatesPage() {
                                 </ul>
                             </div>
 
-                            {/* Change 2 */}
+                            {/* Change 2 - MUTE */}
                             <div className="bg-black/30 p-6 rounded-xl border border-white/5">
                                 <h3 className="text-lg font-bold text-white mb-2">{t('change_2_title')}</h3>
                                 <ul className="list-disc list-inside text-gray-400 space-y-2 text-sm">
@@ -55,12 +55,66 @@ export default function UpdatesPage() {
                                 </ul>
                             </div>
 
-                            {/* Change 3 */}
+                            {/* Change 3 - THATCHER */}
                             <div className="bg-black/30 p-6 rounded-xl border border-white/5">
                                 <h3 className="text-lg font-bold text-white mb-2">{t('change_3_title')}</h3>
                                 <ul className="list-disc list-inside text-gray-400 space-y-2 text-sm">
                                     <li>{t('change_3_point_1')}</li>
                                     <li>{t('change_3_point_2')}</li>
+                                </ul>
+                            </div>
+
+                            {/* Change 4 - HIBANA */}
+                            <div className="bg-black/30 p-6 rounded-xl border border-white/5">
+                                <h3 className="text-lg font-bold text-white mb-2">{t('change_4_title')}</h3>
+                                <ul className="list-disc list-inside text-gray-400 space-y-2 text-sm">
+                                    <li>{t('change_4_point_1')}</li>
+                                    <li>{t('change_4_point_2')}</li>
+                                </ul>
+                            </div>
+
+                            {/* Change 5 - THERMITE */}
+                            <div className="bg-black/30 p-6 rounded-xl border border-white/5">
+                                <h3 className="text-lg font-bold text-white mb-2">{t('change_5_title')}</h3>
+                                <ul className="list-disc list-inside text-gray-400 space-y-2 text-sm">
+                                    <li>{t('change_5_point_1')}</li>
+                                    <li>{t('change_5_point_2')}</li>
+                                </ul>
+                            </div>
+
+                            {/* Change 6 - MAVERICK */}
+                            <div className="bg-black/30 p-6 rounded-xl border border-white/5">
+                                <h3 className="text-lg font-bold text-white mb-2">{t('change_6_title')}</h3>
+                                <ul className="list-disc list-inside text-gray-400 space-y-2 text-sm">
+                                    <li>{t('change_6_point_1')}</li>
+                                    <li>{t('change_6_point_2')}</li>
+                                </ul>
+                            </div>
+
+                            {/* Change 7 - ASH */}
+                            <div className="bg-black/30 p-6 rounded-xl border border-white/5">
+                                <h3 className="text-lg font-bold text-white mb-2">{t('change_7_title')}</h3>
+                                <ul className="list-disc list-inside text-gray-400 space-y-2 text-sm">
+                                    <li>{t('change_7_point_1')}</li>
+                                    <li>{t('change_7_point_2')}</li>
+                                </ul>
+                            </div>
+
+                            {/* Change 8 - CASTLE & ARUNI */}
+                            <div className="bg-black/30 p-6 rounded-xl border border-white/5">
+                                <h3 className="text-lg font-bold text-white mb-2">{t('change_8_title')}</h3>
+                                <ul className="list-disc list-inside text-gray-400 space-y-2 text-sm">
+                                    <li>{t('change_8_point_1')}</li>
+                                    <li>{t('change_8_point_2')}</li>
+                                </ul>
+                            </div>
+
+                            {/* Change 9 - WEAPONS */}
+                            <div className="bg-black/30 p-6 rounded-xl border border-white/5">
+                                <h3 className="text-lg font-bold text-white mb-2">{t('change_9_title')}</h3>
+                                <ul className="list-disc list-inside text-gray-400 space-y-2 text-sm">
+                                    <li>{t('change_9_point_1')}</li>
+                                    <li>{t('change_9_point_2')}</li>
                                 </ul>
                             </div>
                         </div>

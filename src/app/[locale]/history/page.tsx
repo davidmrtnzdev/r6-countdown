@@ -39,7 +39,7 @@ export default async function HistoryPage({ params }: { params: Promise<{ locale
                     </div>
                 </section>
 
-                <section>
+                <section className="mb-16">
                     <h2 className="text-2xl font-bold text-white mb-6 flex items-center gap-2">
                         <span className="w-2 h-8 bg-white/20 inline-block rounded-sm"></span>
                         {t('year_8_title')}
@@ -49,6 +49,97 @@ export default async function HistoryPage({ params }: { params: Promise<{ locale
                         <SeasonCard title={t('y8s3_name')} desc={t('y8s3_desc')} season="Y8S3" />
                         <SeasonCard title={t('y8s2_name')} desc={t('y8s2_desc')} season="Y8S2" />
                         <SeasonCard title={t('y8s1_name')} desc={t('y8s1_desc')} season="Y8S1" />
+                    </div>
+                </section>
+
+                <section className="mb-16">
+                    <h2 className="text-2xl font-bold text-white mb-6 flex items-center gap-2">
+                        <span className="w-2 h-8 bg-white/20 inline-block rounded-sm"></span>
+                        {t('year_7_title')}
+                    </h2>
+                    <div className="grid md:grid-cols-2 gap-6">
+                        <SeasonCard title={t('y7s4_name')} desc={t('y7s4_desc')} season="Y7S4" />
+                        <SeasonCard title={t('y7s3_name')} desc={t('y7s3_desc')} season="Y7S3" />
+                        <SeasonCard title={t('y7s2_name')} desc={t('y7s2_desc')} season="Y7S2" />
+                        <SeasonCard title={t('y7s1_name')} desc={t('y7s1_desc')} season="Y7S1" />
+                    </div>
+                </section>
+
+                <section className="mb-16">
+                    <h2 className="text-2xl font-bold text-white mb-6 flex items-center gap-2">
+                        <span className="w-2 h-8 bg-white/20 inline-block rounded-sm"></span>
+                        {t('year_6_title')}
+                    </h2>
+                    <div className="grid md:grid-cols-2 gap-6">
+                        <SeasonCard title={t('y6s4_name')} desc={t('y6s4_desc')} season="Y6S4" />
+                        <SeasonCard title={t('y6s3_name')} desc={t('y6s3_desc')} season="Y6S3" />
+                        <SeasonCard title={t('y6s2_name')} desc={t('y6s2_desc')} season="Y6S2" />
+                        <SeasonCard title={t('y6s1_name')} desc={t('y6s1_desc')} season="Y6S1" />
+                    </div>
+                </section>
+
+                <section className="mb-16">
+                    <h2 className="text-2xl font-bold text-white mb-6 flex items-center gap-2">
+                        <span className="w-2 h-8 bg-white/20 inline-block rounded-sm"></span>
+                        {t('year_5_title')}
+                    </h2>
+                    <div className="grid md:grid-cols-2 gap-6">
+                        <SeasonCard title={t('y5s4_name')} desc={t('y5s4_desc')} season="Y5S4" />
+                        <SeasonCard title={t('y5s3_name')} desc={t('y5s3_desc')} season="Y5S3" />
+                        <SeasonCard title={t('y5s2_name')} desc={t('y5s2_desc')} season="Y5S2" />
+                        <SeasonCard title={t('y5s1_name')} desc={t('y5s1_desc')} season="Y5S1" />
+                    </div>
+                </section>
+
+                <section className="mb-16">
+                    <h2 className="text-2xl font-bold text-white mb-6 flex items-center gap-2">
+                        <span className="w-2 h-8 bg-white/20 inline-block rounded-sm"></span>
+                        {t('year_4_title')}
+                    </h2>
+                    <div className="grid md:grid-cols-2 gap-6">
+                        <SeasonCard title={t('y4s4_name')} desc={t('y4s4_desc')} season="Y4S4" />
+                        <SeasonCard title={t('y4s3_name')} desc={t('y4s3_desc')} season="Y4S3" />
+                        <SeasonCard title={t('y4s2_name')} desc={t('y4s2_desc')} season="Y4S2" />
+                        <SeasonCard title={t('y4s1_name')} desc={t('y4s1_desc')} season="Y4S1" />
+                    </div>
+                </section>
+
+                <section className="mb-16">
+                    <h2 className="text-2xl font-bold text-white mb-6 flex items-center gap-2">
+                        <span className="w-2 h-8 bg-white/20 inline-block rounded-sm"></span>
+                        {t('year_3_title')}
+                    </h2>
+                    <div className="grid md:grid-cols-2 gap-6">
+                        <SeasonCard title={t('y3s4_name')} desc={t('y3s4_desc')} season="Y3S4" />
+                        <SeasonCard title={t('y3s3_name')} desc={t('y3s3_desc')} season="Y3S3" />
+                        <SeasonCard title={t('y3s2_name')} desc={t('y3s2_desc')} season="Y3S2" />
+                        <SeasonCard title={t('y3s1_name')} desc={t('y3s1_desc')} season="Y3S1" />
+                    </div>
+                </section>
+
+                <section className="mb-16">
+                    <h2 className="text-2xl font-bold text-white mb-6 flex items-center gap-2">
+                        <span className="w-2 h-8 bg-white/20 inline-block rounded-sm"></span>
+                        {t('year_2_title')}
+                    </h2>
+                    <div className="grid md:grid-cols-2 gap-6">
+                        <SeasonCard title={t('y2s4_name')} desc={t('y2s4_desc')} season="Y2S4" />
+                        <SeasonCard title={t('y2s3_name')} desc={t('y2s3_desc')} season="Y2S3" />
+                        <SeasonCard title={t('y2s2_name')} desc={t('y2s2_desc')} season="Y2S2" />
+                        <SeasonCard title={t('y2s1_name')} desc={t('y2s1_desc')} season="Y2S1" />
+                    </div>
+                </section>
+
+                <section>
+                    <h2 className="text-2xl font-bold text-white mb-6 flex items-center gap-2">
+                        <span className="w-2 h-8 bg-white/20 inline-block rounded-sm"></span>
+                        {t('year_1_title')}
+                    </h2>
+                    <div className="grid md:grid-cols-2 gap-6">
+                        <SeasonCard title={t('y1s4_name')} desc={t('y1s4_desc')} season="Y1S4" />
+                        <SeasonCard title={t('y1s3_name')} desc={t('y1s3_desc')} season="Y1S3" />
+                        <SeasonCard title={t('y1s2_name')} desc={t('y1s2_desc')} season="Y1S2" />
+                        <SeasonCard title={t('y1s1_name')} desc={t('y1s1_desc')} season="Y1S1" />
                     </div>
                 </section>
             </div>

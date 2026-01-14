@@ -74,6 +74,7 @@
     "Header": {
         "home": "Home",
         "updates": "Updates & Leaks",
+        "history": "History",
         "about": "About"
     },
     "Footer": {
@@ -119,5 +120,29 @@
         "section_2_desc": "Rumors point to a new Greek operator codenamed 'Phobos' and a brand new map: 'Casino'. Phobos utilizes fear-inducing toxins.",
         "rumor_alert_title": "Unconfirmed Intel",
         "rumor_alert_desc": "Subject to change. Data mined from Test Server build 89402."
+    },
+    "History": {
+        "meta_title": "Rainbow Six Siege Season History | Year 9 & 8 List",
+        "meta_description": "Complete list of past Rainbow Six Siege seasons including Operation Collision Point, Twin Shells, and Deep Freeze. Review previous operators and maps.",
+        "title": "Operation Archive",
+        "subtitle": "Historical record of previous seasons and major content updates.",
+        "year_9_title": "Year 9 (2024)",
+        "y9s4_name": "Collision Point",
+        "y9s4_desc": "Blackbeard Remaster, Siege Cup Beta.",
+        "y9s3_name": "Twin Shells",
+        "y9s3_desc": "New Operator: Skopos. Drone mechanic overhaul.",
+        "y9s2_name": "New Blood",
+        "y9s2_desc": "Recruit Rework (Striker & Sentry). Membership launch.",
+        "y9s1_name": "Deadly Omen",
+        "y9s1_desc": "New Operator: Deimos. Shield mechanic rework.",
+        "year_8_title": "Year 8 (2023)",
+        "y8s4_name": "Deep Freeze",
+        "y8s4_desc": "New Operator: Tubarão. Map: Lair.",
+        "y8s3_name": "Heavy Mettle",
+        "y8s3_desc": "New Operator: Ram. Quick Match 2.0.",
+        "y8s2_name": "Dread Factor",
+        "y8s2_desc": "New Operator: Fenrir. Console rework.",
+        "y8s1_name": "Commanding Force",
+        "y8s1_desc": "New Operator: Brava. MouseTrap anti-cheat."
     }
 }

@@ -43,6 +43,15 @@ export default function Header() {
                         {t('updates')}
                     </Link>
                     <Link
+                        href="/history"
+                        className={clsx(
+                            "text-sm font-medium transition-colors hover:text-white",
+                            isActive('/history') ? "text-white" : "text-gray-400"
+                        )}
+                    >
+                        {t('history')}
+                    </Link>
+                    <Link
                         href="/about"
                         className={clsx(
                             "text-sm font-medium transition-colors hover:text-white",

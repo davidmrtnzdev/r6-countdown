@@ -80,6 +80,7 @@
     "Header": {
         "home": "Startseite",
         "updates": "Updates & Leaks",
+        "history": "Historie",
         "about": "Über Uns"
     },
     "Updates": {
@@ -119,5 +120,29 @@
         "section_2_desc": "Gerüchte deuten auf einen neuen griechischen Operator 'Phobos' und eine neue Karte: 'Casino'. Phobos soll Toxine einsetzen.",
         "rumor_alert_title": "Unbestätigte Informationen",
         "rumor_alert_desc": "Änderungen vorbehalten. Daten aus Testserver-Build 89402 extrahiert."
+    },
+    "History": {
+        "meta_title": "Rainbow Six Siege Saison-Historie | Jahr 9 & 8 Liste",
+        "meta_description": "Vollständige Liste vergangener Rainbow Six Siege Saisons inklusive Collision Point und Deep Freeze. Rückblick auf frühere Operator und Karten.",
+        "title": "Operations-Archiv",
+        "subtitle": "Historische Aufzeichnung vergangener Saisons und Updates.",
+        "year_9_title": "Jahr 9 (2024)",
+        "y9s4_name": "Collision Point",
+        "y9s4_desc": "Blackbeard Rework, Siege Cup Beta.",
+        "y9s3_name": "Twin Shells",
+        "y9s3_desc": "Neuer Operator: Skopos. Drohnen-Überarbeitung.",
+        "y9s2_name": "New Blood",
+        "y9s2_desc": "Rekruten-Rework (Striker & Sentry). Mitgliedschafts-Start.",
+        "y9s1_name": "Deadly Omen",
+        "y9s1_desc": "Neuer Operator: Deimos. Schild-Rework.",
+        "year_8_title": "Jahr 8 (2023)",
+        "y8s4_name": "Deep Freeze",
+        "y8s4_desc": "Neuer Operator: Tubarão. Karte: Unterschlupf.",
+        "y8s3_name": "Heavy Mettle",
+        "y8s3_desc": "Neuer Operator: Ram. Schnelles Match 2.0.",
+        "y8s2_name": "Dread Factor",
+        "y8s2_desc": "Neuer Operator: Fenrir. Konsolen-Rework.",
+        "y8s1_name": "Commanding Force",
+        "y8s1_desc": "Neuer Operator: Brava. MouseTrap Anti-Cheat."
     }
 }

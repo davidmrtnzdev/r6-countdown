@@ -80,6 +80,7 @@
     "Header": {
         "home": "Inicio",
         "updates": "Notas del Parche",
+        "history": "Historial",
         "about": "Sobre Nosotros"
     },
     "Updates": {
@@ -119,5 +120,29 @@
         "section_2_desc": "Los rumores apuntan a un nuevo operador griego llamado 'Phobos' y un mapa totalmente nuevo: 'Casino'. Se dice que Phobos usa toxinas.",
         "rumor_alert_title": "Información No Confirmada",
         "rumor_alert_desc": "Sujeto a cambios. Datos extraídos de la build 89402 del Servidor de Pruebas."
+    },
+    "History": {
+        "meta_title": "Historial de Temporadas R6 Siege | Lista Año 9 y 8",
+        "meta_description": "Lista completa de temporadas anteriores de Rainbow Six Siege, incluyendo Collision Point y Deep Freeze. Repasa operadores y mapas antiguos.",
+        "title": "Archivo de Operaciones",
+        "subtitle": "Registro histórico de temporadas anteriores y actualizaciones de contenido.",
+        "year_9_title": "Año 9 (2024)",
+        "y9s4_name": "Collision Point",
+        "y9s4_desc": "Rework de Blackbeard, Beta de Siege Cup.",
+        "y9s3_name": "Twin Shells",
+        "y9s3_desc": "Nuevo Operador: Skopos. Reajuste de drones.",
+        "y9s2_name": "New Blood",
+        "y9s2_desc": "Rework de Recluta (Striker y Sentry). Lanzamiento de Membresía.",
+        "y9s1_name": "Deadly Omen",
+        "y9s1_desc": "Nuevo Operador: Deimos. Rework de escudos.",
+        "year_8_title": "Año 8 (2023)",
+        "y8s4_name": "Deep Freeze",
+        "y8s4_desc": "Nuevo Operador: Tubarão. Mapa: Guarida.",
+        "y8s3_name": "Heavy Mettle",
+        "y8s3_desc": "Nuevo Operador: Ram. Partida Rápida 2.0.",
+        "y8s2_name": "Dread Factor",
+        "y8s2_desc": "Nuevo Operador: Fenrir. Rework de consola.",
+        "y8s1_name": "Commanding Force",
+        "y8s1_desc": "Nuevo Operador: Brava. Anti-cheat MouseTrap."
     }
 }

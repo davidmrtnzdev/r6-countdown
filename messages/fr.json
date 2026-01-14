@@ -80,6 +80,7 @@
     "Header": {
         "home": "Accueil",
         "updates": "Mises à jour",
+        "history": "Historique",
         "about": "À Propos"
     },
     "Updates": {
@@ -119,5 +120,29 @@
         "section_2_desc": "Les rumeurs indiquent un nouvel opérateur grec 'Phobos' et une nouvelle carte : 'Casino'. Phobos utiliserait des toxines.",
         "rumor_alert_title": "Information Non Confirmée",
         "rumor_alert_desc": "Sujet à changement. Données extraites de la build 89402 du Serveur de Test."
+    },
+    "History": {
+        "meta_title": "Historique des Saisons R6 Siege | Liste Année 9 et 8",
+        "meta_description": "Liste complète des saisons passées de Rainbow Six Siege, incluant Collision Point et Deep Freeze. Revoyez les anciens opérateurs et cartes.",
+        "title": "Archives des Opérations",
+        "subtitle": "Registre historique des saisons précédentes et mises à jour majeures.",
+        "year_9_title": "Année 9 (2024)",
+        "y9s4_name": "Collision Point",
+        "y9s4_desc": "Refonte de Blackbeard, Bêta Coupe Siege.",
+        "y9s3_name": "Twin Shells",
+        "y9s3_desc": "Nouvel Opérateur : Skopos. Refonte des drones.",
+        "y9s2_name": "New Blood",
+        "y9s2_desc": "Refonte Recrue (Striker & Sentry). Lancement abonnement.",
+        "y9s1_name": "Deadly Omen",
+        "y9s1_desc": "Nouvel Opérateur : Deimos. Refonte boucliers.",
+        "year_8_title": "Année 8 (2023)",
+        "y8s4_name": "Deep Freeze",
+        "y8s4_desc": "Nouvel Opérateur : Tubarão. Carte : Repaire.",
+        "y8s3_name": "Heavy Mettle",
+        "y8s3_desc": "Nouvel Opérateur : Ram. Partie Rapide 2.0.",
+        "y8s2_name": "Dread Factor",
+        "y8s2_desc": "Nouvel Opérateur : Fenrir. Refonte console.",
+        "y8s1_name": "Commanding Force",
+        "y8s1_desc": "Nouvel Opérateur : Brava. Anti-cheat MouseTrap."
     }
 }

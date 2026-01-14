@@ -80,6 +80,7 @@
     "Header": {
         "home": "Início",
         "updates": "Atualizações",
+        "history": "Histórico",
         "about": "Sobre"
     },
     "Updates": {
@@ -119,5 +120,29 @@
         "section_2_desc": "Rumores apontam para um novo operador grego 'Phobos' e um novo mapa: 'Casino'. Phobos utilizaria toxinas.",
         "rumor_alert_title": "Informação Não Confirmada",
         "rumor_alert_desc": "Sujeito a alterações. Dados extraídos da build 89402 do Servidor de Testes."
+    },
+    "History": {
+        "meta_title": "Histórico de Temporadas R6 Siege | Lista Ano 9 e 8",
+        "meta_description": "Lista completa das temporadas passadas de Rainbow Six Siege, incluindo Collision Point e Deep Freeze. Reveja operadores e mapas antigos.",
+        "title": "Arquivo de Operações",
+        "subtitle": "Registro histórico de temporadas anteriores e atualizações de conteúdo.",
+        "year_9_title": "Ano 9 (2024)",
+        "y9s4_name": "Collision Point",
+        "y9s4_desc": "Rework do Blackbeard, Beta da Siege Cup.",
+        "y9s3_name": "Twin Shells",
+        "y9s3_desc": "Novo Agente: Skopos. Reformulação de Drones.",
+        "y9s2_name": "New Blood",
+        "y9s2_desc": "Rework de Recruta (Striker e Sentry). Lançamento de Assinatura.",
+        "y9s1_name": "Deadly Omen",
+        "y9s1_desc": "Novo Agente: Deimos. Rework de Escudos.",
+        "year_8_title": "Ano 8 (2023)",
+        "y8s4_name": "Deep Freeze",
+        "y8s4_desc": "Novo Agente: Tubarão. Mapa: Covil.",
+        "y8s3_name": "Heavy Mettle",
+        "y8s3_desc": "Novo Agente: Ram. Partida Rápida 2.0.",
+        "y8s2_name": "Dread Factor",
+        "y8s2_desc": "Novo Agente: Fenrir. Rework de Console.",
+        "y8s1_name": "Commanding Force",
+        "y8s1_desc": "Novo Agente: Brava. Anti-cheat MouseTrap."
     }
 }

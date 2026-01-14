@@ -47,9 +47,9 @@
     "NextSeason": {
         "title": "Ce que nous savons de l'Année 11 Saison 1",
         "operator_label": "Nouvel Opérateur",
-        "operator_val": "CLASSIFIÉ (Striker)",
-        "map_label": "Refonte de Carte",
-        "map_val": "Consulat (Rumeur)",
+        "operator_val": "Phobos (Toxine de Peur)",
+        "map_label": "Nouvelle Carte",
+        "map_val": "Casino",
         "date_label": "Date Prévue",
         "date_val": "3 Mars 2026"
     },

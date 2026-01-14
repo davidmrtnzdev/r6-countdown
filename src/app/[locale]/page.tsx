@@ -2,8 +2,10 @@ import { Countdown } from "@/components/Countdown";
 import { SeasonProgress } from "@/components/SeasonProgress";
 import { AdPlaceholder } from "@/components/AdPlaceholder";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
+import { RankedChart } from "@/components/RankedChart";
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import NextImage from 'next/image';
+import { Link } from '@/i18n/routing';
 
 // Season dates
 const SEASON_START = "2025-12-02T14:00:00Z"; // Y10S4 Launch
@@ -19,6 +21,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
   const tArticle = await getTranslations({ locale, namespace: 'Article' });
   const tFAQ = await getTranslations({ locale, namespace: 'FAQ' });
   const tNextSeason = await getTranslations({ locale, namespace: 'NextSeason' });
+  const tLatestIntel = await getTranslations({ locale, namespace: 'LatestIntel' });
 
   // JSON-LD Structured Data
   const jsonLd = {
@@ -157,7 +160,46 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
               </div>
             </div>
 
+            {/* Latest Intelligence Grid */}
+            <div className="w-full max-w-5xl mt-16">
+              <h2 className="text-2xl font-bold text-white mb-6 text-left border-l-4 border-r6-orange pl-4">
+                {tLatestIntel('title')}
+              </h2>
+              <div className="grid md:grid-cols-3 gap-6">
+                {/* Card 1: Updates */}
+                <Link href="/updates" className="group block bg-black/40 border border-white/10 rounded-xl p-6 hover:bg-white/5 hover:border-r6-orange/50 transition-all text-left">
+                  <div className="text-r6-orange/80 text-xs font-bold uppercase tracking-widest mb-2">Y10S4</div>
+                  <h3 className="text-lg font-bold text-white mb-2 group-hover:text-r6-orange transition-colors">{tLatestIntel('card_1_title')}</h3>
+                  <p className="text-gray-400 text-sm mb-4">{tLatestIntel('card_1_desc')}</p>
+                  <div className="flex items-center text-xs font-bold text-white group-hover:translate-x-1 transition-transform">
+                    {tLatestIntel('read_more')} &rarr;
+                  </div>
+                </Link>
 
+                {/* Card 2: Leaks */}
+                <Link href="/updates" className="group block bg-black/40 border border-white/10 rounded-xl p-6 hover:bg-white/5 hover:border-r6-orange/50 transition-all text-left">
+                  <div className="text-r6-orange/80 text-xs font-bold uppercase tracking-widest mb-2">Y11S1</div>
+                  <h3 className="text-lg font-bold text-white mb-2 group-hover:text-r6-orange transition-colors">{tLatestIntel('card_2_title')}</h3>
+                  <p className="text-gray-400 text-sm mb-4">{tLatestIntel('card_2_desc')}</p>
+                  <div className="flex items-center text-xs font-bold text-white group-hover:translate-x-1 transition-transform">
+                    {tLatestIntel('read_more')} &rarr;
+                  </div>
+                </Link>
+
+                {/* Card 3: History */}
+                <Link href="/history" className="group block bg-black/40 border border-white/10 rounded-xl p-6 hover:bg-white/5 hover:border-r6-orange/50 transition-all text-left">
+                  <div className="text-r6-orange/80 text-xs font-bold uppercase tracking-widest mb-2">ARCHIVE</div>
+                  <h3 className="text-lg font-bold text-white mb-2 group-hover:text-r6-orange transition-colors">{tLatestIntel('card_3_title')}</h3>
+                  <p className="text-gray-400 text-sm mb-4">{tLatestIntel('card_3_desc')}</p>
+                  <div className="flex items-center text-xs font-bold text-white group-hover:translate-x-1 transition-transform">
+                    {tLatestIntel('read_more')} &rarr;
+                  </div>
+                </Link>
+              </div>
+            </div>
+
+            {/* Ranked Distribution Chart */}
+            <RankedChart />
 
           </section>
 

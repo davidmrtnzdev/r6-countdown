@@ -207,5 +207,27 @@
         "y1s2_desc": "New Operators: Blackbeard & Valkyrie.",
         "y1s1_name": "Black Ice",
         "y1s1_desc": "New Operators: Buck & Frost."
+    },
+    "LatestIntel": {
+        "title": "Latest Intelligence",
+        "card_1_title": "Y10S4 Patch Notes",
+        "card_1_desc": "Full breakdown of Ace, Mute, & Thatcher changes.",
+        "card_2_title": "Y11S1 Leaks",
+        "card_2_desc": "Operator Phobos & Casino Map details.",
+        "card_3_title": "Season History",
+        "card_3_desc": "Archive of Year 1 to Year 9 seasons.",
+        "read_more": "READ REPORT"
+    },
+    "RankedStats": {
+        "title": "Ranked Distribution (Projected)",
+        "subtitle": "Estimated player distribution by rank tier.",
+        "copper": "Copper",
+        "bronze": "Bronze",
+        "silver": "Silver",
+        "gold": "Gold",
+        "platinum": "Platinum",
+        "emerald": "Emerald",
+        "diamond": "Diamond",
+        "champion": "Champion"
     }
 }

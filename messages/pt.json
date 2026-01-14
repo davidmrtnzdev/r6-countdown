@@ -207,5 +207,27 @@
         "y1s2_desc": "Novos Agentes: Blackbeard e Valkyrie.",
         "y1s1_name": "Black Ice",
         "y1s1_desc": "Novos Agentes: Buck e Frost."
+    },
+    "LatestIntel": {
+        "title": "Últimas Informações",
+        "card_1_title": "Notas de Atualização Y10S4",
+        "card_1_desc": "Análise completa das mudanças em Ace, Mute e Thatcher.",
+        "card_2_title": "Vazamentos Y11S1",
+        "card_2_desc": "Detalhes do Operador Phobos e Mapa Casino.",
+        "card_3_title": "Histórico de Temporadas",
+        "card_3_desc": "Arquivo das temporadas do Ano 1 ao Ano 9.",
+        "read_more": "LER RELATÓRIO"
+    },
+    "RankedStats": {
+        "title": "Distribuição de Ranques (Projeção)",
+        "subtitle": "Distribuição estimada de jogadores por ranque.",
+        "copper": "Cobre",
+        "bronze": "Bronze",
+        "silver": "Prata",
+        "gold": "Ouro",
+        "platinum": "Platina",
+        "emerald": "Esmeralda",
+        "diamond": "Diamante",
+        "champion": "Campeão"
     }
 }

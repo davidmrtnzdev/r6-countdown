@@ -1,9 +1,16 @@
 'use client';
 import { useTranslations } from 'next-intl';
-import { motion } from 'framer-motion';
+import { useEffect, useState } from 'react';
 
 export const RankedChart = () => {
     const t = useTranslations('RankedStats');
+    const [mounted, setMounted] = useState(false);
+
+    useEffect(() => {
+        // Trigger animation after mount
+        const timer = setTimeout(() => setMounted(true), 100);
+        return () => clearTimeout(timer);
+    }, []);
 
     // Estimated distribution data (Projected/Visual)
     const data = [
@@ -41,15 +48,16 @@ export const RankedChart = () => {
                             {t(item.rank)}: {item.val}%
                         </div>
 
-                        <motion.div
-                            initial={{ height: 0 }}
-                            whileInView={{ height: `${item.val * 3.5}%` }}
-                            transition={{ duration: 1, delay: index * 0.1, ease: 'easeOut' }}
-                            className="w-full max-w-[40px] rounded-t-sm relative overflow-hidden"
-                            style={{ backgroundColor: item.color }}
+                        <div
+                            className="w-full max-w-[40px] rounded-t-sm relative overflow-hidden transition-all duration-1000 ease-out"
+                            style={{
+                                height: mounted ? `${item.val * 3.5}%` : '0%',
+                                backgroundColor: item.color,
+                                transitionDelay: `${index * 100}ms`
+                            }}
                         >
                             <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
-                        </motion.div>
+                        </div>
                         <div className="mt-2 text-[10px] md:text-xs text-gray-400 uppercase font-bold tracking-wider rotate-[-45deg] md:rotate-0 origin-top-left md:origin-center translate-y-2 md:translate-y-0 text-center w-full truncate">
                             {t(item.rank)}
                         </div>

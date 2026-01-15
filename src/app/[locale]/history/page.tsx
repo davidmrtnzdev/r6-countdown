@@ -1,5 +1,6 @@
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { Metadata } from 'next';
+import { AdPlaceholder } from '@/components/AdPlaceholder';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
     const { locale } = await params;
@@ -77,6 +78,11 @@ export default async function HistoryPage({ params }: { params: Promise<{ locale
                         <SeasonCard title={t('y6s1_name')} desc={t('y6s1_desc')} season="Y6S1" />
                     </div>
                 </section>
+
+                {/* Mid-Timeline Ad */}
+                <div className="w-full flex justify-center py-8 mb-16">
+                    <AdPlaceholder slot="in-history" className="h-[250px] w-full max-w-[970px]" format="auto" />
+                </div>
 
                 <section className="mb-16">
                     <h2 className="text-2xl font-bold text-white mb-6 flex items-center gap-2">

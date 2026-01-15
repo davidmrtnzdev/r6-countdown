@@ -1,6 +1,7 @@
 import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 import { Analytics } from '@vercel/analytics/react';
+import { AdPlaceholder } from '@/components/AdPlaceholder';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
     const { locale } = await params;
@@ -120,6 +121,11 @@ export default function UpdatesPage() {
                         </div>
                     </div>
                 </section>
+
+                {/* Mid-Content Ad */}
+                <div className="w-full flex justify-center py-6">
+                    <AdPlaceholder slot="in-content" className="h-[250px] w-full max-w-[970px]" format="auto" />
+                </div>
 
                 {/* Section 2: Future Leaks */}
                 <section className="bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur-sm">

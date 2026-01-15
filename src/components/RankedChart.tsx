@@ -1,16 +1,8 @@
 'use client';
 import { useTranslations } from 'next-intl';
-import { useEffect, useState } from 'react';
 
 export const RankedChart = () => {
     const t = useTranslations('RankedStats');
-    const [mounted, setMounted] = useState(false);
-
-    useEffect(() => {
-        // Trigger animation after mount
-        const timer = setTimeout(() => setMounted(true), 100);
-        return () => clearTimeout(timer);
-    }, []);
 
     // Estimated distribution data (Projected/Visual)
     const data = [
@@ -51,9 +43,8 @@ export const RankedChart = () => {
                         <div
                             className="w-full max-w-[40px] rounded-t-sm relative overflow-hidden transition-all duration-1000 ease-out"
                             style={{
-                                height: mounted ? `${item.val * 3.5}%` : '0%',
+                                height: `${item.val * 6}px`,
                                 backgroundColor: item.color,
-                                transitionDelay: `${index * 100}ms`
                             }}
                         >
                             <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
